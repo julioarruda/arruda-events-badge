@@ -1,0 +1,4 @@
+eventname:GitHub Mão Na Massa
+eventtrimmed:github_mao_na_massa
+eventdate:16/04/2022
+eventdescription:asdadasd asdasdad
