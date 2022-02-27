@@ -1,0 +1,4 @@
+eventname:DevOps Mão Na Massa GitHub
+eventtrimmed:devops_mao_na_massa_github
+eventdate:16/04/2022
+eventdescription:zsfdsfdsf

@@ -1,0 +1,32 @@
+<li></li>
+<li>### Conference Name;</li>
+<li></li>
+<li>DevOps Mão Na Massa GitHub</li>
+<li></li>
+<li>### Date of the Conferente;</li>
+<li></li>
+<li>16/04/2022</li>
+<li></li>
+<li>### Badge;</li>
+<li></li>
+<li>![Badge GitHub Mão na Massa](https://user-images.githubusercontent.com/5204009/155897391-d11c4d6f-e1d5-40b5-8e00-8aec49f38a94.png)</li>
+<li></li>
+<li></li>
+<li>### Badge 600x600;</li>
+<li></li>
+<li>![Badge GitHub Mão na Massa](https://user-images.githubusercontent.com/5204009/155897395-06ae1390-e344-46b7-a499-d253af9e4d2a.png)</li>
+<li></li>
+<li></li>
+<li>### Describe the Conference;</li>
+<li></li>
+<li>zsfdsfdsf</li>
+<li></li>
+<li>### Skills Learned;</li>
+<li></li>
+<li>- a</li>
+<li>- a</li>
+<li>- a</li>
+<li>- a</li>
+<li>- sda</li>
+<li>- sd</li>
+<li>- as</li>
