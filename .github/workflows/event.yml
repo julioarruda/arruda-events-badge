@@ -90,7 +90,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           comment: |
-            Evento ${{ steps.issue.outputs.eventname }} Criado.
+            Conference ${{ steps.issue.outputs.eventname }} created.
           
          
           
