@@ -48,6 +48,7 @@ jobs:
         id: repository
         run: |
           rm -rf arruda-events-badge
+          ls -la
           git config --global user.name 'Julio Arruda'
           git config --global user.email 'julio.arruda@outlook.com'
           git clone git@github.com:julioarruda/arruda-events-badge.git
