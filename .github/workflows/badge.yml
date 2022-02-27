@@ -91,20 +91,16 @@ jobs:
           echo '"' >> ${{ steps.participants.outputs.participantid }}.md
           echo " /></p>" >> ${{ steps.participants.outputs.participantid }}.md
           echo "</div></div></div>" >> ${{ steps.participants.outputs.participantid }}.md
-
           echo "<div><div><div><div><div><div>" >> ${{ steps.participants.outputs.participantid }}.md
           echo "<h1>${{ steps.event.outputs.eventname }}</h1>" >> ${{ steps.participants.outputs.participantid }}.md
-          echo '<div><div>Issued by: Event Issuer</div><div>&nbsp;</div>' >> ${{ steps.participants.outputs.participantid }}.md
-          echo "<div>This certificate was issued to: <strong>${{ steps.participants.outputs.participantName }}</strong>, on ${{ steps.event.outputs.eventdate }}.</div>" >> ${{ steps.participants.outputs.participantid }}.md
+          echo '<div><div>Emitido por <a href="https://arruda.io">Arruda - Consultoria e Treinamentos</a></div><div>&nbsp;</div>' >> ${{ steps.participants.outputs.participantid }}.md
+          echo "<div>Esse certificado foi emitido para: <strong>${{ steps.participants.outputs.participantName }}</strong>, em ${{ steps.event.outputs.eventdate }}.</div>" >> ${{ steps.participants.outputs.participantid }}.md
           echo "</div></div>" >> ${{ steps.participants.outputs.participantid }}.md
-
           echo "<p>${{ steps.event.outputs.eventdescription }}</p>" >> ${{ steps.participants.outputs.participantid }}.md
-
           echo "</div><div>" >> ${{ steps.participants.outputs.participantid }}.md
           
-          echo "<h1>Skills</h1>" >> ${{ steps.participants.outputs.participantid }}.md
+          echo "<h1>Habilidades</h1>" >> ${{ steps.participants.outputs.participantid }}.md
           echo "<ul>$skills</ul>" >> ${{ steps.participants.outputs.participantid }}.md
-
           echo "</div><div>&nbsp;</div></div></div></div></div></main></body>" >> ${{ steps.participants.outputs.participantid }}.md
 
 
