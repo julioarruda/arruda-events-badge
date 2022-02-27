@@ -1,1 +1,7 @@
 theme: jekyll-theme-slate
+
+plugins:
+ - jekyll-seo-tag
+
+title: Validação de Certificados | Arruda - Consultoria e Treinamentos
+description: Verifique a autenticidade de seu certificado
