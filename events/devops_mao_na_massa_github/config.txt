@@ -1,4 +1,4 @@
 eventname:DevOps Mão na Massa GitHub
 eventtrimmed:devops_mao_na_massa_github
 eventdate:16/04/2022
-eventdescription:Esse certificado foi emitido para: Julio Arruda, em 01/01/2001.
+eventdescription: Essa pessoa aprendeu sobre Oque é o GitHub, e como o GitHub pode ser útil em seu dia a dia, para gestão de código fonte, gestão de projetos, desenvolvimento de aplicações, e também, no processo de CI e CD.
