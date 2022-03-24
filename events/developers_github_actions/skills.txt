@@ -1,0 +1,3 @@
+<li></li>
+<li>- Oque é o GitHub Actions</li>
+<li>- Como usar o GitHub Actions para ir além do CI e CD</li>

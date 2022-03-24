@@ -1,0 +1,4 @@
+eventname:Developers GitHub Actions
+eventtrimmed:developers_github_actions
+eventdate:24/03/2022
+eventdescription:Foi apresentado como o GitHub Actions pode ir além do CI e CD e apoiar em diversas outras automações dentro do repositório
