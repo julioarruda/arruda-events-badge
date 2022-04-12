@@ -129,17 +129,18 @@ jobs:
       - uses: licenseware/send-email-notification@v1
         with:
           api-key: ${{ secrets.SENDGRID_API_KEY }}
-          subject: "Thanks for participate of the conference - ${{ steps.event.outputs.eventname }}"
+          subject: "Obrigado pela sua participação no evento - ${{ steps.event.outputs.eventname }}"
           from-email: no-reply@arruda.io
           to-email: ${{ steps.participants.outputs.participantemail }}
           markdown-body: |
             # Obrigado pela sua participação neste evento
-            ${{ steps.participants.outputs.participantemail }}
+            Olá ${{ steps.participants.outputs.participantName }}
+
             Para acessar seu certificado, acesse: [Certificado](${{ steps.participants.outputs.participantcertificate }})
 
-            ## Não deixe de compartilhar sua Badge
+            ## Não deixe de compartilhar sua Badge no LinkedIn
 
-            Compartilhe sua Badge, com a #AprendendoGitHub
+            Compartilhe sua Badge, com a #AprendendoGitHub, e também pode me marcar em @julioarrudac
 
             [Acesse sua Badge](https://creds.arruda.io/events/${{ steps.event.outputs.eventnametrimmed}}/${{ steps.participants.outputs.participantid}})
 
