@@ -109,21 +109,40 @@ jobs:
           git commit -m "including badges to participant ${{ steps.participants.outputs.participantName }}"
           git push
 
-      - name: Send mail
-        uses: dawidd6/action-send-mail@v3
+      # - name: Send mail
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     server_address: smtp.gmail.com
+      #     server_port: 465
+      #     username: ${{secrets.MAIL_USERNAME}}
+      #     password: ${{secrets.MAIL_PASSWORD}}
+      #     subject: "Thanks for participate of the conference - ${{ steps.event.outputs.eventname }}"
+      #     to: ${{ steps.participants.outputs.participantemail }}
+      #     from: Julio Arruda
+      #     secure: true
+      #     body: |
+      #       "Thanks for your presence.
+      #       Here is your Certificate: ${{ steps.participants.outputs.participantcertificate }}
+      #       And your badge: https://creds.arruda.io/events/${{ steps.event.outputs.eventnametrimmed}}/${{ steps.participants.outputs.participantid}}"
+
+
+      - uses: licenseware/send-email-notification@v1
         with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          api-key: ${{ secrets.SENDGRID_API_KEY }}
           subject: "Thanks for participate of the conference - ${{ steps.event.outputs.eventname }}"
-          to: ${{ steps.participants.outputs.participantemail }}
-          from: Julio Arruda
-          secure: true
-          body: |
-            "Thanks for your presence.
-            Here is your Certificate: ${{ steps.participants.outputs.participantcertificate }}
-            And your badge: https://creds.arruda.io/events/${{ steps.event.outputs.eventnametrimmed}}/${{ steps.participants.outputs.participantid}}"
+          from-email: no-reply@arruda.io
+          to-email: ${{ steps.participants.outputs.participantemail }}
+          markdown-body: |
+            # Obrigado pela sua participação neste evento
+
+            Para acessar seu certificado, acesse: [Certificado] (${{ steps.participants.outputs.participantcertificate }})
+
+            ## Não deixe de compartilhar sua Badge
+
+            Compartilhe sua Badge, com a #AprendendoGitHub
+
+            [Acesse sua Badge](https://creds.arruda.io/events/${{ steps.event.outputs.eventnametrimmed}}/${{ steps.participants.outputs.participantid}})
+
 
       - name: Close Issue
         uses: peter-evans/close-issue@v1
