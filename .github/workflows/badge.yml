@@ -134,8 +134,8 @@ jobs:
           to-email: ${{ steps.participants.outputs.participantemail }}
           markdown-body: |
             # Obrigado pela sua participação neste evento
-
-            Para acessar seu certificado, acesse: [Certificado] (${{ steps.participants.outputs.participantcertificate }})
+            ${{ steps.participants.outputs.participantemail }}
+            Para acessar seu certificado, acesse: [Certificado](${{ steps.participants.outputs.participantcertificate }})
 
             ## Não deixe de compartilhar sua Badge
 
