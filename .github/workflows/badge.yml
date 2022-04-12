@@ -29,7 +29,7 @@ jobs:
          participantName="$(cat temp.txt | grep "participant" | cut -d":" -f2)"
          participantid="$(cat temp.txt | grep "id" | cut -d":" -f2)"
          participantevent="$(cat temp.txt | grep "event" | cut -d":" -f2)"
-         participantemail="$(cat temp.txt | grep "email" | cut -d":" -f2)"
+         participantemail="$(cat temp.txt | grep "email" | cut -d":" -f2 | tr -d '](mailto' | tr -d '[')"
          participantcertificate="$(cat temp.txt | grep "certificate" | cut -d"]" -f2 | grep -Eo 'https://[^ >]+' |head -1  | rev | cut -c1- | rev)"
          
           echo "::set-output name=participantName::$participantName"
