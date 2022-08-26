@@ -1,0 +1,4 @@
+eventname:Desafio Primeiros Passos GitHub
+eventtrimmed:desafio_primeiros_passos_github
+eventdate:26/08/2022
+eventdescription:Neste desafio foram apresentados os primeiros passos em GitHub, para apoiar as pessoas a começar sua utilização em seu dia a dia.

@@ -1,0 +1,14 @@
+<li></li>
+<li><ul></li>
+<li><li></li>
+<li>Como criar uma nova branch</li>
+<li></li></li>
+<li><li></li>
+<li>Como realizar um novo commit</li>
+<li></li></li>
+<li><li></li>
+<li>Como criar um pull request</li>
+<li></li></li>
+<li><li></li>
+<li>Como realizar o merge do pull request</li>
+<li></li></li>
