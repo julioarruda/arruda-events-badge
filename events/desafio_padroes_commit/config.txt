@@ -1,0 +1,4 @@
+eventname:Desafio Padrões de Commit
+eventtrimmed:desafio_padroes_commit
+eventdate:26/08/2022
+eventdescription:Neste desafio foi apresentada a convenção de commits, muito utilizado pelos times que trabalham com repositórios Git para padronizar as mensagens de commit e facilitar o dia adia.

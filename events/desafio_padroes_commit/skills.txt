@@ -1,0 +1,7 @@
+</li>
+<li>Oque é uma convenção de Commit
+</li>
+<li>Quais são as convenções utilizadas
+</li>
+<li>Criando commits com os tipos da convenção
+</li>
