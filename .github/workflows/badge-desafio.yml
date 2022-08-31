@@ -141,6 +141,8 @@ jobs:
 
             [Acesse sua Badge](https://creds.arruda.io/events/${{ steps.event.outputs.eventnametrimmed}}/${{ steps.participants.outputs.participantid}})
 
+            Obs: Sua badge pode demorar alguns minutos para aparecer no portal devido ao processamento.
+
 
       - name: Close Issue
         uses: peter-evans/close-issue@v1

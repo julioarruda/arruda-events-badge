@@ -1,4 +1,4 @@
-</li>
+
 <li>Oque é uma convenção de Commit
 </li>
 <li>Quais são as convenções utilizadas

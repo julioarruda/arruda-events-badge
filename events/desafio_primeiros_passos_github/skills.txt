@@ -1,4 +1,3 @@
-</li>
 <li>Como criar uma nova branch
 </li>
 <li>Como realizar um novo commit

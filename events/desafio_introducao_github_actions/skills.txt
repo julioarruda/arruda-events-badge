@@ -1,0 +1,6 @@
+<li>Oque é o GitHub Actions</li>
+<li>Estrutura Básica de uma Action</li>
+<li>Criar um Workflow</li>
+<li>Adicionar uma trigger</li>
+<li>Adicionar um Job</li>
+<li>Adicionar uma Action</li>

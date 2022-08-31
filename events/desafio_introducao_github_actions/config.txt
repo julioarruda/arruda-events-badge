@@ -1,0 +1,4 @@
+eventname:Desafio Introdução ao GitHub Actions
+eventtrimmed:desafio_introducao_github_actions
+eventdate:26/08/2022
+eventdescription:Neste desafio foi apresentada o GitHub Actions, oque é, e como criar um primeiro Workflow.
