@@ -1,0 +1,4 @@
+eventname:Desafio Conhecendo o GitFlow
+eventtrimmed:desafio_conhecendo_gitflow
+eventdate:26/08/2022
+eventdescription:Neste desafio foi apresentada o o GitFlow, e como funciona.

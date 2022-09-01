@@ -1,0 +1,8 @@
+<li>Oque é o GitFlow</li>
+<li>Como funciona o GitFlow</li>
+<li>Criar branch de develop</li>
+<li>Criar branch de Feature</li>
+<li>Criar branch de release</li>
+<li>Criar branch de Hotfix</li>
+<li>Proteger a branch main</li>
+<li>Promover código até a branch main</li>
