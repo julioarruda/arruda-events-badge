@@ -13,6 +13,12 @@ jobs:
     if: contains(github.event.issue.title, '[Desafio 1]')
     
     steps:
+
+      - name: Sleep para evitar conflitos
+        run: |
+          rand=$(( ( RANDOM % 10 )  + 1 ))
+          sec=$(date +%S)
+          sleep $(($rand + $sec))    
       
       - uses: actions/checkout@v2
 
